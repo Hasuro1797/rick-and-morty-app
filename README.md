@@ -28,7 +28,7 @@ Clona el repositorio e instala las dependencias.
 
 ```bash
 git clone https://github.com/Hasuro1797/rick-and-morty-app.git
-cd landing-page
+cd rick-and-morty
 npm install
 ```
 
