@@ -1,10 +1,9 @@
-import React from 'react'
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
+import { NextUIProvider } from '@nextui-org/react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App.tsx'
 import './index.css'
-import { NextUIProvider } from '@nextui-org/react'
-import { BrowserRouter } from 'react-router-dom'
-import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 
 const client = new ApolloClient({
   uri: 'https://rickandmortyapi.com/graphql',

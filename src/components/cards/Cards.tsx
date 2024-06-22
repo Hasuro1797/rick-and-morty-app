@@ -12,6 +12,7 @@ export default function Cards({results}: Characters) {
               name={get(element,"name","")}
               status={get(element,"status","")}
               image={get(element,"image","")}
+              id={get(element,"id",0)}
             />
           )
         )

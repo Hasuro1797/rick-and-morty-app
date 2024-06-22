@@ -14,9 +14,9 @@ function App() {
     <Routes>
       <Route element={<Layout/>}>
         <Route index element={<HomePage/>} path={routes.home} />
+        <Route index element={<CharacterPage/>} path={`${routes.character}`} />
         <Route element={<LocationPage />} path={routes.location} />
         <Route element={<EpisodesPage />} path={routes.episodes} />
-        <Route element={<CharacterPage/>} path={`${routes.character}`} />
         <Route element={<Error404 />} path={routes.error} />
       </Route>
     </Routes>
