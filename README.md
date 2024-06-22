@@ -52,7 +52,7 @@ O con yarn:
 yarn dev
 ```
 
-Esto lanzará la aplicación en modo de desarrollo y estará disponible en http://localhost:3000.
+Esto lanzará la aplicación en modo de desarrollo y estará disponible en http://localhost:5173.
 
 ### Producción
 
