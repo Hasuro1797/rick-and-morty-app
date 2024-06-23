@@ -28,7 +28,7 @@ Clona el repositorio e instala las dependencias.
 
 ```bash
 git clone https://github.com/Hasuro1797/rick-and-morty-app.git
-cd landing-page
+cd rick-and-morty
 npm install
 ```
 
@@ -52,7 +52,7 @@ O con yarn:
 yarn dev
 ```
 
-Esto lanzará la aplicación en modo de desarrollo y estará disponible en http://localhost:3000.
+Esto lanzará la aplicación en modo de desarrollo y estará disponible en http://localhost:5173.
 
 ### Producción
 
