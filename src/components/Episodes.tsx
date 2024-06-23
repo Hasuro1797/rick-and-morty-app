@@ -28,7 +28,7 @@ export default function Episodes({episode}:{episode: string}) {
         }
       </section>
       <section className='px-8 md:px-16 lg:px-20 grid grid-cols-5 gap-5 md:grid-cols-7 lg:grid-cols-12'>
-        <div className='col-span-5 md:col-span-7 lg:col-span-3 bg-red-200'>
+        <div className='col-span-5 md:col-span-7 lg:col-span-3'>
           <SelectSection
             items={[...Array(51).keys()]}
             paramsName='episode'
