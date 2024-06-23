@@ -8,7 +8,7 @@ export default function SelectSection({items, paramsName}: { items: number[], pa
     setSearchParams(searchParams)
     }
   return (
-    <section>
+    <section className='flex justify-center lg:justify-start'>
       <Select 
         label={`Select an ${paramsName}`}
         className="max-w-xs"

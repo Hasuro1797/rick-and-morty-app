@@ -13,7 +13,7 @@ export default function CharacterPage() {
     }
   })
   return (
-    <main className=''>
+    <main className='mt-16'>
       {
         loading?(
           <Skeleton className='max-w-[324px] w-full rounded-xl h-[500px] py-4 mx-auto'/>
